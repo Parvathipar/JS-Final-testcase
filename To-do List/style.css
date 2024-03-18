@@ -1,0 +1,63 @@
+.container{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    background-color: lemonchiffon;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+ button.add{
+        width: 100px;
+        height: 20px;
+        background-color: darkcyan;
+        color: white;
+        border-radius: 30px;
+        border: none;
+}
+input{
+    padding: 10px;
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 30px;
+    border: none;
+}
+li::before {
+    content: "";
+    display: inline-block;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url("icons8-circle-48.png");
+    
+}
+li{
+    width: 200px;
+    height: 40px;
+    background-color: lightgreen;
+    margin: 5px;
+    color: green;
+    
+}
+h1{
+    margin-left: 50px;
+    color: red;
+    border-bottom: 2px solid limegreen;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    width: 270px;
+    background-color: darkkhaki;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+li{
+    font-size: 20px;
+    margin-left: 5px;
+}

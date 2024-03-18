@@ -1,0 +1,42 @@
+#addbutton{
+    width: 150px;
+    height: 40px;
+    background-color: lightpink;
+    color: darkblue;
+    border: none;
+    border-radius: 30px;
+}
+.container{
+    margin-left: 400px;
+    margin-top: 100px;
+    h1{
+        color: darkmagenta;
+        border-bottom: 1px solid lightsalmon;
+        width: 200px;
+    }
+    h2{
+        color: darkblue;
+        border-bottom: 1px solid lightskyblue;
+        width: 100px;
+    }
+    h2 #serach{
+        color: darkslategrey;
+        border-bottom: 1px solid lemonchiffon;
+        width: 400px;
+    }
+    table #table{
+        border: 1px solid green;
+        width: 200px;
+        height: 300px;
+       
+    }
+    thead{
+        color: red;
+        margin-left: 10px;
+        width: 100px;
+    }
+    tbody{
+        color: darkcyan;
+        margin-right: 20px;
+    }
+}

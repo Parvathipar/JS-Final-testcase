@@ -1,0 +1,52 @@
+.container{
+    width: 500px;
+    height: 400px;
+    margin-left: 200px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    color: white;
+    h1{
+        text-align: center;
+        color: blue;
+        margin-bottom: 50px;
+    }
+    
+  
+  input{
+    width: 220px;
+    background-color: lightcyan;
+  }
+  #number{
+    margin-left: 115px;
+  }
+  #fname{
+    margin-left: 150px;
+  }
+  #lname{
+    margin-left: 152px;
+  }
+  #email{
+    margin-left: 165px;
+  }
+  #password{
+    margin-left: 160px;
+  }
+  #pw2{
+    margin-left: 225px;
+    margin-top: -15px;
+  }
+  button{
+    width: 150px;
+    background-color: green;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 160px;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  
+}

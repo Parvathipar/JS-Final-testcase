@@ -1,0 +1,23 @@
+div#questions{
+    font-size: 20px;
+    
+
+}
+#nextbtn{
+  background-color: darkblue;
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  width: 100px;
+  border: none;
+  margin-top: 20px;
+}
+.container{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+h1{
+    color: darkseagreen;
+    border-bottom: 1px solid darkred;
+    width: 220px;
+}

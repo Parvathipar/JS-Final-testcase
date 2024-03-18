@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+
+    <script>
+        const questions = [
+            {
+                question: "What is the capital of France?",
+                options: ["London", "Berlin", "Paris", "Rome"],
+                correctAnswer: "Paris"
+            },
+            {
+                question: "Who wrote 'Romeo and Juliet'?",
+                options: ["William Shakespeare", "Charles Dickens", "Jane Austen", "Leo Tolstoy"],
+                correctAnswer: "William Shakespeare"
+            },
+            {
+                question: "What is 2 + 2?",
+                options: ["3", "4", "5", "6"],
+                correctAnswer: "4"
+            }
+        ];
+
+        let score = 0;
+
+        function startQuiz() {
+            score = 0;
+            for (let i = 0; i < questions.length; i++) {
+                const userAnswer = prompt(questions[i].question + "\n" + questions[i].options.join("\n"));
+                if (userAnswer !== null) {
+                    if (userAnswer === questions[i].correctAnswer) {
+                        score++;
+                        alert("Correct!");
+                    } else {
+                        alert("Incorrect!");
+                    }
+                } else {
+                    break; // Exit the loop if the user cancels
+                }
+            }
+            alert("Quiz finished! Your score is: " + score + "/" + questions.length);
+        }
+
+        startQuiz(); // Start the quiz when the page loads
+    </script>
+</body>
+</html>
